@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .container button{
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+  }
+  
+  .input {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .input input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1.5px solid #ccc;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .input input:focus {
+    border-color: #007bff;
+  }
+  
